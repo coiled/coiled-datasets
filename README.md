@@ -67,3 +67,11 @@ Some datasets are stored in inefficient file formats like CSV.  They're not stor
 
 Some open source datasets are also messy, so you need to clean the data before performing your analysis.  Suppose you'd like to try out a new machine learning model on a large dataset.  You may not want to perform hours cleaning up the data if your end goal is to experiment with some models.
 
+## Localhost datasets
+
+This repo also has scripts for you to create example datasets on your local machine.
+
+See the `create-scripts` directory.
+
+For example, you can run `python create-scripts/timeseries.py` to create some of the timeseries datasets on your local machine.  They'll be written in the `~/data` directory.
+
