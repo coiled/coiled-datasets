@@ -1,5 +1,15 @@
 # coiled-datasets
 
+This repo provides easy access to three types of data:
+
+* open source datasets hosted in S3
+* scripts to create datasets on your local machine
+* some tiny datasets that are checked into this repo
+
+These datasets are great for learning, experimentation, and benchmarking.
+
+## S3 datasets
+
 Coiled hosts several public datasets in AWS S3 that you can easily query when experimenting with Dask.
 
 Here's an example code snippet that creates a DataFrame with 662 million rows of data:
